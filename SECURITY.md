@@ -4,9 +4,23 @@
 
 If you discover a security vulnerability in Hermes Workspace, please report it responsibly.
 
-**Do NOT open a public GitHub issue for security vulnerabilities.**
+**Do not open a public GitHub issue for security vulnerabilities.** Public issues are for non-sensitive bugs only.
 
-Instead, report via [GitHub Security Advisories](https://github.com/outsourc-e/hermes-workspace/security/advisories) or DM [@ericousodev on X](https://x.com/ericousodev).
+Preferred disclosure channels:
+
+1. [GitHub Private Vulnerability Reporting / Security Advisories](https://github.com/outsourc-e/hermes-workspace/security/advisories/new)
+2. Email: [security@buildingthefuture.io](mailto:security@buildingthefuture.io)
+
+If GitHub reports that private vulnerability reporting is disabled, use the email address above and include enough detail for maintainers to reproduce the issue safely.
+
+Maintainer action required: GitHub private vulnerability reporting is controlled in repository settings under **Settings → Code security and analysis → Private vulnerability reporting**. That setting must be enabled by a repository administrator; this policy file provides the public fallback channel but does not change the repository setting.
+
+Please include:
+
+- affected version, commit, or deployment mode
+- reproduction steps or a proof-of-concept, if safe to share
+- expected impact and affected data/systems
+- any suggested remediation or mitigation
 
 We will acknowledge your report within 48 hours and aim to provide a fix within 7 days for critical issues.
 
